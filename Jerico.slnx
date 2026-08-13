@@ -1,7 +1,4 @@
 <Solution>
-  <Folder Name="/dev_notes/">
-    <File Path="dev_notes.txt" />
-  </Folder>
   <Project Path="Jerico.Api/Jerico.Api.csproj" />
   <Project Path="Jerico.Dashboard/Jerico.Dashboard.csproj" />
 </Solution>

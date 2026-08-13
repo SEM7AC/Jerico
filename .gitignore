@@ -167,4 +167,4 @@ Platforms/iOS/*.plist
 *.diff
 *.patch
 dev_notes.txt
-dev_notes/
+**/dev_notes/
