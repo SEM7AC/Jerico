@@ -1,0 +1,21 @@
+[
+  {
+    "id": "cf",
+    "name": "Cloudflare",
+    "endpoint": "1.1.1.1",
+    "type": "icmp"
+  },
+  {
+    "id": "google",
+    "name": "Google DNS",
+    "endpoint": "8.8.8.8",
+    "type": "icmp"
+  },
+  {
+    "id": "ms",
+    "name": "Microsoft",
+    "endpoint": "https://www.microsoft.com",
+    "type": "http"
+  }
+]
+

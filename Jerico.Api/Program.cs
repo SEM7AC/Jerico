@@ -1,4 +1,6 @@
 
+using Jerico.Api.Services;
+
 namespace Jerico.Api
     {
     public class Program
@@ -10,7 +12,12 @@ namespace Jerico.Api
             // Add services to the container.
 
             builder.Services.AddControllers();
-            
+            builder.Services.AddSingleton<NodeStatusCacheService>();
+            builder.Services.AddSingleton<NodeRepositoryService>();
+            builder.Services.AddSingleton<NodeCheckerService>();
+           
+
+
 
             var app = builder.Build();
           

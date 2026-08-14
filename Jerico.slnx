@@ -1,4 +1,3 @@
 <Solution>
   <Project Path="Jerico.Api/Jerico.Api.csproj" />
-  <Project Path="Jerico.Dashboard/Jerico.Dashboard.csproj" />
 </Solution>
